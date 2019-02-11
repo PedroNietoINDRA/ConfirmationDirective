@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MyButtonComponent } from './my-button/my-button.component';
+import { ConfirmationPanelDirective } from './confirmation-panel.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MyButtonComponent,
+    ConfirmationPanelDirective
   ],
   imports: [
     BrowserModule,
